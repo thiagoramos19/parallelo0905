@@ -1,0 +1,150 @@
+/* Reseta as margens e paddings de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para o nav (barra de navegação) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    background-color: black;
+    position: fixed; /* Mantém o menu fixo no topo da página ao rolar */
+    top: 15px;
+    left: 226px;
+    right: 226px;
+    z-index: 10;
+    min-width: 1217px;
+}
+
+/* Estilos para o logo */
+nav #logo img {
+    margin: 25px;
+    height: 75px;
+}
+
+/* Menu principal */
+nav #main-menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 125px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    padding: 0;
+}
+
+/* Efeito hover no menu */
+nav ul li a:hover {
+    color: #c77700;
+}
+nav span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    color: #868686;
+    margin: 5px 3px 0 0;
+    float: left;
+}
+
+/* Estilos para o header */
+header {
+    width: 100%;
+    height: 100%; /* Mantém a altura do slide proporcional */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Imagem do slide */
+header .slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cobre o container da imagem sem distorção */
+    position: absolute;
+    z-index: -1;
+}
+
+/* Barra de controle do slide */
+header #slide-bar {
+    height: 280px;
+    width: 685px;
+    background-image: url(img/yellow-bg.png);
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    bottom: 0; /* Encosta a barra na parte inferior */
+    padding: 30px; /* Adiciona padding interno */
+}
+
+header #slide-bar #bar-car {
+    display: flex;
+    flex-direction: column; /* Coloca o texto e setas em coluna */
+    justify-content: center;
+    width: 100%;
+    height: 585px;
+}
+
+header #slide-bar #txt-slide {
+    font-size: 17px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+header #slide-bar #titulo-slide {
+    font-size: 65px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+}
+
+/* Setas de navegação do slide */
+header .seta_esq, header .seta_dir {
+    width: 41px;
+    height: 14px;
+}
+
+header .seta_esq img, header .seta_dir img {
+    width: 100%;
+    height: 14px;
+    
+}
+
+/* Contêiner para as setas de navegação */
+header #setinhas-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    
+}
+
+.separador{
+    width: 100%;
+    height: 48px;
+    background-image: url(img/divider-dark.png);
+
+}
