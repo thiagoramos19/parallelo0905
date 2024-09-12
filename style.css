@@ -1,0 +1,168 @@
+/*definções para o corpo*/
+
+body{
+    margin: 0%;
+    background-color: #fff4c8;
+    display: block;
+}
+
+/*definições para a parte de navegação*/
+nav{
+    display: flex;
+    position: absolute;
+    background-color: #00bf63;
+    height: 100px;
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+#menu{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    width: 770px;
+   
+}
+
+#menu li{
+    display: flex;
+
+    float: left;
+    
+}
+
+#menu ul{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    width: 730px;
+    vertical-align: middle;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+#menu li a{
+    font-family: 'Montsserat', sans-serif;
+    text-decoration: black;
+    color: black;
+}
+
+/*definições para o slogan*/
+#slogan{
+    position: absolute;
+    top: 100px;
+    width: -webkit-fill-available;
+
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*definições para o a parte "home" do site*/
+header{
+    display: flex;
+    position: absolute;
+    padding: 0px 30px 30px 30px;
+    align-items: center;
+    top: 175px;
+
+    max-height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+/*definições para as propostas*/
+#green{
+    position: absolute;
+    float: right;
+    width: 48%;
+    background-color: #00bf63;
+    padding: 10px;
+    height: 721px;
+}
+#green ul{
+  
+    justify-content: space-between;
+}
+#green ul li{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Montsserat', sans-serif;
+    color: #fff9e2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+#green h2{
+    margin-left: 20px;
+    color: #fff4c8;
+    font-size: 30px;
+    font-family: 'Montsserat', sans-serif;
+}
+
+/*definições para a ideologia e o líder*/
+
+#content{
+    float: right;
+    height: 741px;
+    width: 48%;
+    justify-content: space-between;
+    
+}
+
+/*definições para a ideologia*/
+
+#yellow{
+    float: right;
+
+    height: 360.5px;
+    width: -webkit-fill-available;
+    background-color: #fedd59;
+}
+#text-yellow{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Montsserat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*definições para o líder*/
+
+#blue{
+    float: right;
+    display: flex;
+    height: 360.5px;
+    width: -webkit-fill-available;
+    margin-top: 20px;
+    background-color: #5270fe;
+}
+
+.capitao{
+    width: 315px;
+    height: 315px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#text-blue{
+    
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Montsserat', sans-serif;
+    width: 490px;
+    margin-left: 20px;
+}
+
+
